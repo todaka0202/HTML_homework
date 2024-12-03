@@ -1,23 +1,45 @@
 @import url(sanitize.css);
 
 body {
-    margin-top: 117px;
+    margin-top: 90px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    height: 117px;
+    height: 90px;
     width: 100%;
     background-color: rgb(101, 53, 53);
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 2;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo{
+    position: absolute;
+    top: 9%;
+    right: 0;
+    left: 0;
+    margin: 0 0;
+    text-align: center;
+}
+
+.logo span a {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 5px;
 }
 
 h1 {
-    margin: 0 0 0 45%;
-    text-align: center;
+    margin: 0;
 }
 
 h1 a {
@@ -27,25 +49,24 @@ h1 a {
     letter-spacing: 5px;
 }
 
-span {
-    font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
+.div_buy {
+    margin: auto 0;
+    position: absolute;
+    top: 35%;
+    left: 94%;
 }
 
 .buy {
     color: #ffffff;
-    margin: auto 20px;
-    font-size: 20px;
+    font-size: 18px;
     border: #ffffff solid 1px;
-    padding: 5px;
+    padding: 7px;
     letter-spacing: 2px;
 }
 
 .main_img {
     background-color: rgb(0, 0, 0);
     width: 100%;
-    position: relative;
 }
 
 .main_img img {
@@ -54,15 +75,124 @@ span {
     object-fit: cover;
 }
 
-p {
+.main_img p {
     color: #ffffff;
     position: absolute;
     top: 50%;
-    left: 1100px;
+    left: 80%;
     letter-spacing: 5px;
     font-family: "Noto Serif JP", serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
     font-size: 20px;
+}
+
+.features {
+    background-color: #f2f2f2;
+    height: 760px;
+}
+
+h2 {
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin: 0px;
+    padding: 60px;
+    text-align: center;
+    color: rgb(101, 53, 53);
+    font-family: "Noto Serif JP", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.features_contener {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin: 0 18%;
+}
+
+.features img {
+    height: 380px;
+    width: 280px;
+    object-fit: cover;
+}
+
+.features_items ul {
+    background-color: rgb(101, 53, 53);
+    width: 280px;
+    height: 120px;
+    padding: 30px;
+}
+
+.features_items li {
+    color: #ffffff;
+    margin: 5px;
+    list-style: none;
+}
+
+.catchphrase p{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(101, 53, 53);
+    font-family: "Noto Serif JP", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.catchphrase span {
+    margin-left: 60%;
+    color: rgb(139, 115, 115);
+}
+
+.main_merchandise {
+    background-color:  rgb(101, 53, 53);
+}
+
+.main_merchandise_content {
+    display: flex;
+    margin: 0 auto;
+    width: 900px;
+}
+
+.main_merchandise img {
+    width: 450px;
+    height: 550px;
+    object-fit: cover;
+    margin-right: 25px;
+}
+
+.main_merchandise_left {
+    width: 500px;
+    color: #ffffff;
+    margin-left: 25px;
+    margin: auto 0;
+}
+
+
+.main_merchandise_left h3 {
+    font-size: 35px;
+    margin: 0;
+    letter-spacing: 4px;
+}
+
+.main_merchandise_left .name {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+}
+
+.main_merchandise_left .type {
+    margin-top: 5px;
+    border: 1px solid #ffffff;
+    padding: 8px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.main_merchandise_left p {
+    margin-top: 60px;
 }
