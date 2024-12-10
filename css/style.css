@@ -100,10 +100,6 @@ h2 {
     padding: 60px;
     text-align: center;
     color: rgb(101, 53, 53);
-    font-family: "Noto Serif JP", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
 }
 
 .features_contener {
@@ -132,9 +128,14 @@ h2 {
     list-style: none;
 }
 
+.catchphrase {
+    height: 200px;
+}
+
 .catchphrase p{
     text-align: center;
     font-size: 40px;
+    margin-bottom: 0;
     color: rgb(101, 53, 53);
     font-family: "Noto Serif JP", serif;
     font-optical-sizing: auto;
@@ -145,6 +146,8 @@ h2 {
 .catchphrase span {
     margin-left: 60%;
     color: rgb(139, 115, 115);
+    margin-bottom: 20px;
+    font-size: 12px;
 }
 
 .main_merchandise {
@@ -161,13 +164,12 @@ h2 {
     width: 450px;
     height: 550px;
     object-fit: cover;
-    margin-right: 25px;
+    margin-right: 55px;
 }
 
 .main_merchandise_left {
     width: 500px;
     color: #ffffff;
-    margin-left: 25px;
     margin: auto 0;
 }
 
@@ -195,4 +197,106 @@ h2 {
 
 .main_merchandise_left p {
     margin-top: 60px;
+}
+
+.cautionary_note_white {
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.merchandise {
+    background-color: #f2f2f2;
+    height: 1000px;
+}
+
+.merchandise_items {
+    display: flex;
+    padding-top: 80px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 900px;
+}
+
+.merchandise_item {
+    display: flex;
+    border: rgb(101, 53, 53) solid 0.5px;
+    outline: rgb(101, 53, 53) solid 1px;
+    outline-offset: 4px;
+    width: 400px;
+    padding: 20px 40px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.merchandise_item img {
+    width: 100px;
+}
+
+.merchandise_item_text {
+    color: rgb(101, 53, 53);
+    height: 40px;
+    margin: auto 10px;
+}
+
+.merchandise_name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.merchandise_item_text p {
+    margin: 0;
+    
+}
+
+.merchandise_buy {
+    color: #ffffff;
+    font-size: 18px;
+    height: 40px;
+    background-color: rgb(101, 53, 53);
+    padding: 7px;
+    letter-spacing: 2px;
+    margin: auto 0px;
+    margin-left: 70px;
+}
+
+.cautionary_note_red {
+    margin-left: 71%;
+    color: rgb(101, 53, 53);
+    font-size: 15px;
+}
+
+.limited_items {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.limited_items_title {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    color: #ffffff;
+    background-color: rgb(101, 53, 53);
+    font-size: 27px;
+    width: 190px;
+    padding: 5px 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.limited_item_1 {
+    display: flex;
+    margin-top: 30px;
+}
+
+.limited_item_1 img {
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.limited_item_1_left {
+    background-color: #ffffff;
+    height: 450px;
+    width: 600px;
 }
