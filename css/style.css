@@ -530,8 +530,177 @@ h2 {
     font-size: 13px
 }
 
+/* award */
+
 .award {
     height: 300px;
     margin-top: 40px;
     background-color: #ffffff;
+    background-image: url(/img/coffee-beans-2803288_1920.jpg);
+}
+
+/* about */
+
+.about {
+    height: 3000px;
+    background-color: #f2f2f2;
+    padding-top: 80px;
+}
+
+.video {
+    margin: 0 auto;
+    width: 990px;
+}
+
+.about_us {
+    width: 990px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.about_us h3 {
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: rgb(101, 53, 53);
+    background-color: #ffffff;
+    width: 600px;
+    height: 50px;
+}
+
+.thin {
+    font-weight: lighter;
+} 
+
+.about_us p {
+    font-size: 18px;
+    letter-spacing:2px;
+    text-align: center;
+    line-height: 2;
+    margin: 50px 0;
+}
+
+.about_img {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.about_img img {
+    width: 990px;
+}
+
+.concept {
+    width: 990px;
+    margin: 50px auto;
+}
+
+.concept h3 {
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: rgb(101, 53, 53);
+    background-color: #ffffff;
+    width: 350px;
+    height: 50px;
+}
+
+.concept h4 {
+    text-align: center;
+    font-size: 37px;
+    font-weight: lighter;
+    margin: 60px 0;
+    color: rgb(101, 53, 53);
+}
+
+.name_meaning {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.name_meaning p {
+    color: rgb(101, 53, 53);
+}
+
+.name_meaning h5 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: lighter;
+    line-height: 90px;
+    letter-spacing: 2px;
+    background-color: #979393;
+    color: #fff;
+    width: 600px;
+    height: 90px;
+    margin: 60px auto;
+    outline: 1px solid #fff;
+    outline-offset: -7px;
+    box-shadow: 7px 5px 5px #b3b3b3;
+}
+
+.name_meaning_title {
+    font-size: 22px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+
+}
+
+.name_meaning_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name_meaning_content p {
+    font-size: 17px;
+    margin: 0;
+    font-weight: bold;
+    line-height: 2.2;
+}
+
+.name_meaning_content img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.package_meaning {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.package_meaning h5 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: lighter;
+    line-height: 90px;
+    letter-spacing: 2px;
+    background-color: #979393;
+    color: #fff;
+    width: 600px;
+    height: 90px;
+    margin: 60px auto;
+    outline: 1px solid #fff;
+    outline-offset: -7px;
+    box-shadow: 7px 5px 5px #b3b3b3;
+}
+
+.package_meaning_content {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0;
+}
+
+.package_meaning_content p{
+    font-size: 17px;
+    margin: 0;
+    font-weight: bold;
+    line-height: 2.4;
+    color: rgb(101, 53, 53);
+}
+
+.package_meaning_content img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
 }
